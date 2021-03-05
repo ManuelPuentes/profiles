@@ -171,7 +171,7 @@ checksum = "d7afe4a420e3fe79967a00898cc1f4db7c8a49a9333a29f8a4bd76a253d5cd04"
 [[package]]
 name = "hc_utils"
 version = "0.2.0"
-source = "git+https://github.com/guillemcordoba/hc-utils?branch=develop#ecd98e728f4572c4bbbe47e87bad6202e9666d78"
+source = "git+https://github.com/guillemcordoba/hc-utils?branch=develop#14a2c69b441d1e4010effd296300db262c24c7f6"
 dependencies = [
  "hdk",
  "holo_hash",
