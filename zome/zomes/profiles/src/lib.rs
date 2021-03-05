@@ -1,7 +1,7 @@
 extern crate hc_utils;
 
 use hc_utils::WrappedAgentPubKey;
-use hdk3::prelude::*;
+use hdk::prelude::*;
 
 mod profile;
 mod utils;
@@ -13,7 +13,7 @@ pub fn error<T>(reason: &str) -> ExternResult<T> {
 }
 
 pub fn err(reason: &str) -> WasmError {
-    WasmError::Zome(String::from(reason))
+    WasmError::Guest(String::from(reason))
 }
 
 entry_defs![Path::entry_def(), profile::Profile::entry_def()];
